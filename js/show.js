@@ -1,5 +1,6 @@
 
 $(document).ready(function(){
+
     $mask = $('.mask');
     $footer = $('.footer');
     var $window = $(window),
@@ -12,12 +13,12 @@ $(document).ready(function(){
     $content.on('mousewheel',function(a,b){
         if(!$wallpaper.is(':animated')){
             if(top_n < 0 && top_n > -($wall_page.length-1) || top_n == 0 && b == -1 || top_n == -($wall_page.length-1) && b == 1){
-//                console.info(b);
                 top_n += b>0?1:-1;
                 $wallpaper.animate({
                     'top':top_n*$window.height()
                 },800);
                 $dot.find('li').eq(-top_n).addClass('current').siblings().removeClass('current');
+                $wall_page.eq(-top_n).addClass('current').siblings().removeClass('current');
                 if($dot.find('li').eq(3).hasClass('current')){
                     $('.four .img').stop().animate({
                         'opacity': 1,
@@ -30,6 +31,10 @@ $(document).ready(function(){
                         'left': -50,
                         'bottom': -50
                     }, 800);
+                }
+                if($wall_page.hasClass('current')){
+                    var src = $wall_page.eq(-top_n).find('.img img').attr('srv');
+                    $wall_page.eq(-top_n).find('.img img').attr('src',src);
                 }
             }
         }
