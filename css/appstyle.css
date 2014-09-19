@@ -25,12 +25,13 @@ body{overflow:hidden;min-width:1000px;}
 .two .img img{width:auto;}
 .three .img{right:1%;}
 .four .img{left:-50px;bottom:-50px;filter:alpha(opacity=0);opacity: 0;}
+/*.two .img img,.three .img img,.four .img img{display:none;}*/
 .slogan_txt{position: absolute;width:30%;height:55%;bottom:20%;right:5%;}
 .slogan_txt span.block{width:100%;}
 .slogan_txt span.block img{width:100%;}
 .two .slogan_txt,.three .slogan_txt{width:35%;height:23%;bottom:38%;right:0;}
-.three .slogan_txt{right:62%;}
-.four .slogan_txt{width:28%;right:10%;}
+.three .slogan_txt{width:26%;right:65%;}
+.four .slogan_txt{width:20%;right:15%;}
 .slogan_p1{margin-top:5%;}
 .download{margin-top:25%;}
 .download p{padding:10px 0;}
