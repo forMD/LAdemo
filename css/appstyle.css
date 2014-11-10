@@ -4,6 +4,8 @@ body{overflow:hidden;min-width:1000px;}
 .nav li{float: left;padding-left:20px;}
 .nav li a{display: block;height:60px;line-height:60px;color:#fff;padding:0 20px;}
 .nav li a:hover,.nav li.current a{color:#59a7f9;}
+.nav li a.regist{background:#59a7f9;transition:0.3s;}
+.nav li a.regist:hover{color:#fff;background:#347cdc;transition:0.3s;}
 .dot_list{width:10px;height:100px;position:fixed;top:50%;margin-top:-50px;right:20px;z-index:50;}
 .dot_list li{display: block;height:25px;line-height:25px;text-align: center;cursor: pointer;}
 .dot_list li a{display:inline-block;width:4px;height:4px;border:1px solid #bdbdbd;background:#aaa;border-radius:50%;transition:0.8s;}
