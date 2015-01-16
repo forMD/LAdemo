@@ -1,6 +1,5 @@
 
 $(document).ready(function(){
-
     $mask = $('.mask');
     $footer = $('.footer');
     var $window = $(window),
