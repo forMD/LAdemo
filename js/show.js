@@ -2,12 +2,16 @@
     $mask = $('.mask');
     $footer = $('.footer');
     var $window = $(window),
+        $W_width = $window.width(),
         $content=$('.content'),
         $wallpaper = $('.wallpaper'),
         $wall_page = $wallpaper.find('.wall_page'),
         $dot =$('.dot_list'),
         li_Nun =$dot.find('li').length,
         top_n = 0;
+     if($W_width>1190 && $W_width < 1500){
+         $('body').addClass('mid');
+     }
     $content.on('mousewheel',function(a,b){
         if(!$wallpaper.is(':animated')){
             if(top_n < 0 && top_n > -($wall_page.length-1) || top_n == 0 && b == -1 || top_n == -($wall_page.length-1) && b == 1){
@@ -31,7 +35,7 @@
                     }, 800);
                 }
                 if($wall_page.hasClass('current')){
-                    var src = $wall_page.eq(-top_n).find('.img img').attr('srv');
+                    var src = $wall_page.eq(-top_n).find('.img img').attr('data-url');
                     $wall_page.eq(-top_n).find('.img img').attr('src',src);
                 }
             }

@@ -27,6 +27,10 @@ body{overflow:hidden;min-width:1000px;}
 .two .img img{width:auto;}
 .three .img{right:1%;}
 .four .img{left:-50px;bottom:-50px;filter:alpha(opacity=0);opacity: 0;}
+.mid .one .img{left:3%;height:70%;}
+.mid .two .img{height:70%;left:-5%;}
+.mid .three .img,.mid .four .img{height:70%;}
+
 /*.two .img img,.three .img img,.four .img img{display:none;}*/
 .slogan_txt{position: absolute;width:30%;height:55%;bottom:20%;right:5%;}
 .slogan_txt span.block{width:100%;}

@@ -7,10 +7,10 @@
     <link rel="stylesheet" type="text/css" href="css/appstyle.css">
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-    <script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollLoadingload.min.js"></script>
     <script type="text/javascript" src="js/show.js"></script>
     <script type="text/javascript">
-        $('.lazy').lazyload();
+        $(".scrollLoading").scrollLoading();
     </script>
 </head>
 <body>
@@ -40,7 +40,7 @@
     <div class="wallpaper" style="top:0;">
         <div class="wall_page one">
             <div class="wall_in">
-                <div class="img"><img class="lazy" src="img/img-1.png" srv="img/img-1.png"></div>
+                <div class="img"><img class="scrollLoading" src="img/img-1.png"></div>
                 <div class="slogan_txt">
                     <span class="block"><img src="img/slogan-1.png"/></span>
                     <div class="download">
@@ -59,21 +59,21 @@
         <div class="wall_page two">
             <div class="wall_img"><img src="img/two-bg.jpg"/></div>
             <div class="wall_in">
-                <div class="img"><img class="lazy" src="" srv="img/img-2.png"></div>
+                <div class="img"><img class="scrollLoading" src="img/repeat.png" data-url="img/img-2.png"></div>
                 <div class="slogan_txt"><span class="block"><img src="img/slogan-2.png"/></span></div>
             </div>
         </div>
         <div class="wall_page three">
             <div class="wall_img"><img src="img/three-bg.jpg"/></div>
             <div class="wall_in">
-                <div class="img"><img class="lazy" src="" srv="img/img-3.png"></div>
+                <div class="img"><img class="scrollLoading" src="img/repeat.png" data-url="img/img-3.png"></div>
                 <div class="slogan_txt"><span class="block"><img src="img/slogan-3.png"/></span></div>
             </div>
         </div>
         <div class="wall_page four">
             <div class="wall_img"><img src="img/four-bg.jpg"/></div>
             <div class="wall_in" style="width:100%;">
-                <div class="img"><img  class="lazy" src="" srv="img/img-4.png"></div>
+                <div class="img"><img  class="scrollLoading" src="img/repeat.png" data-url="img/img-4.png"></div>
                 <div class="slogan_txt"><span class="block"><img src="img/slogan-4.png"/></span></div>
             </div>
         </div>
@@ -82,7 +82,7 @@
 <!--主体over-->
 <div class="mask"></div>
 <!--footer begin-->
-<div class="footer alignright" style="display: ;">
+<div class="footer alignright" style="display:;">
     <span>上海万企明道软件有限公司</span>
     <span><img src="img/phone.png">400-021-6464</span>
     <span><img src="img/mail.png">feedback@mingdao.com</span>
