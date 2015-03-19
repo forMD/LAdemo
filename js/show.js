@@ -24,14 +24,14 @@
                 if($dot.find('li').eq(3).hasClass('current')){
                     $('.four .img').stop().animate({
                         'opacity': 1,
-                        'left': 0,
-                        'bottom': 0
+                        'left':150,
+                        'bottom': 10
                     },1500);
                 } else {
                     $('.four .img').stop().animate({
                         'opacity': 0,
-                        'left': -50,
-                        'bottom': -50
+                        'left': 140,
+                        'bottom': -10
                     }, 800);
                 }
                 if($wall_page.hasClass('current')){
@@ -51,14 +51,14 @@
         if($dot.find('li').eq(3).hasClass('current')){
             $('.four .img').stop().animate({
                 'opacity': 1,
-                'left': 0,
-                'bottom': 0
+                'left': 150,
+                'bottom': 10
             },1500);
         } else {
             $('.four .img').stop().animate({
                 'opacity': 0,
-                'left': -50,
-                'bottom': -50
+                'left': 140,
+                'bottom': -10
             }, 800);
         }
     });
