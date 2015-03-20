@@ -96,7 +96,7 @@ a.code .code_img{position: absolute;top:-233px;left:-90px;display:none;}
 .slogan p{padding:0 40px;}
 .slogan a{display: inline-block;height:50px;line-height:50px;background:#e7e8e8;border:1px solid #0063bd;text-align: center;width:30%;border-radius:2px;font-size:16px;padding:0 10px;}
 .slogan a.login_oa{width:40%;border-color:#3e9b4d;background:#48b65a;color:#fff;}
-.login_box{width:300px;margin:0 auto;margin-top:3%;height:90%;}
+.login_box{width:300px;margin:0 auto;margin-top:3%;height:90%;padding-bottom:100px;}
 .login_box p img{width: 100%;}
 .Int{height:40px;position: relative;}
 .Int .error_txt{display:block;width:100%;height:45px;line-height:45px;position: absolute;right:0;top:0;text-align: right;font-size: 13px;display: none;padding-right:10px;}
