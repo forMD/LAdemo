@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>明道-快捷审批</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" src="js/show.js"></script>
+    <script type="text/javascript" src="js/imgauto.js"></script>
+</head>
+<body>
+<!--header begin-->
+<div class="header">
+    <div class="headerInner clearfix">
+        <a href="#" class="block floatleft"><img src="img/la-logo.png"/></a>
+        <ul class="nav font14 floatright">
+            <li class="current"><a href="#">电脑版</a></li>
+            <li><a href="La.html">移动版</a></li>
+            <li><a href="help.html">产品帮助</a></li>
+            <li><a href="updatelog.html">更新日志</a></li>
+            <li class="contact"><a href="javascript:;">联系我们</a></li>
+            <li><a href="" class="regist">注册</a></li>
+            <li><a href="" class="login">登录</a></li>
+        </ul>
+    </div>
+</div>
+<!--header over-->
+<div class="content main" style="background:#dfe0e0;">
+    <div class="login_box">
+        <p class="aligncenter"><img src="img/logo.png"/></p>
+        <div class="login_main mart20" style="display: none">
+            <div class="Int">
+                <input type="text" placeholder="用户名">
+                <span class="error_txt">用户名输入错误</span>
+            </div>
+            <div class="Int mart20 has-error">
+                <input type="password" placeholder="密码" value="11212222">
+                <span class="error_txt">密码错误</span>
+            </div>
+            <a href="#" class="login_btn aligncenter font14 mart45 login_ok"><span>登 录</span><img src="img/ok.png" width="30"></a>
+            <p class="clearfix font14 color-8 mart20 alignright">
+                <label class="floatleft"><input type="checkbox"> 在本机上保持登录</label>
+                <a href="#" class="color-8">忘记密码？</a>
+            </p>
+            <a href="#" class="login_btn login_qq aligncenter font14 mart30"><img src="img/qq2.png" width="25"><span>使用企业qq登录</span></a>
+        </div>
+        <div class="choose_net mart20" style="height:60%;">
+            <div class="jscroll" style="height:80%;">
+                <ul>
+                    <li><a href="">上海万企明道软件有限公司</a></li>
+                    <li><a href="">mingdao plus</a></li>
+                    <li><a href="">中共中央党校</a></li>
+                    <li><a href="">大连万科实业集团</a></li>
+                    <li><a href="">上海万企明道软件有限公司</a></li>
+                    <li><a href="">上海万企明道软件有限公司</a></li>
+                    <li><a href="">北京联合通讯有限责任公司</a></li>
+                </ul>
+            </div>
+            <a href="#" class="login_btn login_quit aligncenter font14 mart30"><span>取 消</span></a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function Jscroll(){
+        $('.jscroll').jScrollPane({
+            'mouseWheelSpeed':100,
+            "showArrows":false
+        });
+    }
+    Jscroll();
+</script>
+</body>
+</html>
