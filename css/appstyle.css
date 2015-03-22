@@ -46,7 +46,7 @@ body{overflow:hidden;min-width:1000px;}
 .download p span em{display:inline-block;position: absolute;width:150px;height:150px;top:-150px;left:0;display:none;}
 .download p span em img{width:150px;height:150px;}
 .download p span:hover em{display:block;transition:0.5s;-webkit-transition:0.5s;}
-.mask{position:fixed;width:100%;height:100%;left:0;top:0;background:#000;z-index:70;filter:alpha(opacity=10);opacity:0.1;display:none;}
+.mask{position:fixed;width:100%;height:100%;left:0;top:0;background:url("../img/mask4.png") repeat;z-index:70;display:none;}
 .footer{position:fixed;width:100%;height:60px;padding-top:20px;left:0;bottom:-100px;background:#0e0d0d;filter:alpha(opacity=90);opacity:0.9;z-index:100;color:#fff;font-size:14px;}
 .footer span{display: inline-block;height:40px;line-height:40px;border-right:1px solid #424141;padding:0 40px;}
 .footer span img{vertical-align:middle;margin-right:15px;}
@@ -64,7 +64,7 @@ a.code .code_img{position: absolute;top:-233px;left:-90px;display:none;}
 .footer span.last a.wx{*left:10px;}
 
 .main{overflow-y: auto;padding-top:60px;}
-.one_page,.three_page,.four_page{position: relative;}
+.one_page,.three_page,.four_page{position: relative;overflow: hidden;}
 .one_page p img,.three_page p img,.four_page p img{width:100%;}
 .pc_1,.pc_3,.pc_4{width:57%;position: absolute;left:50%;margin-left:-28%;top:50px;}
 .pc_1{width:100%;margin-left:-50%;}
@@ -94,25 +94,30 @@ a.code .code_img{position: absolute;top:-233px;left:-90px;display:none;}
 .slogan{width:30%;position: absolute;left:50%;margin-left:-15%;z-index:20;top:18%;}
 .slogan img{width:100%;}
 .slogan p{padding:0 40px;}
-.slogan a{display: inline-block;height:50px;line-height:50px;background:#e7e8e8;border:1px solid #0063bd;text-align: center;width:30%;border-radius:2px;font-size:16px;padding:0 10px;}
+.slogan a{display: inline-block;transition:0.2s;height:50px;line-height:50px;background:#e7e8e8;border:1px solid #0063bd;text-align: center;width:30%;border-radius:3px;font-size:16px;padding:0 10px;}
 .slogan a.login_oa{width:40%;border-color:#3e9b4d;background:#48b65a;color:#fff;}
-.login_box{width:300px;margin:0 auto;margin-top:3%;height:90%;padding-bottom:100px;}
-.login_box p img{width: 100%;}
+.slogan a.regist_md{color:#06c;}
+.slogan a:hover,.login_btn:hover{opacity:0.8;transition:0.2s;}
+.login_box,.choose_net{width:300px;margin:0 auto;height:414px;position: absolute;top:50%;left:50%;margin:-220px 0 0 -190px;padding:20px 40px;background:#eee;}
+.login_box p img{width: 90%;}
+.login_box label input{vertical-align: middle;}
 .Int{height:40px;position: relative;}
 .Int .error_txt{display:block;width:100%;height:45px;line-height:45px;position: absolute;right:0;top:0;text-align: right;font-size: 13px;display: none;padding-right:10px;}
 .Int input{height:45px;line-height:45px;width: 100%;font-size: 14px;text-indent:10px;border:0;}
-.Int input:focus{box-shadow: 0 0 8px #06c;}
+.Int input:focus{box-shadow: 0 0 6px #06c;}
 .Int.has-error input{box-shadow: 0 0 10px #ea1b1b;}
 .Int.has-error .error_txt{display: block;color:#e41010;}
-.login_btn{display: block;height:45px;line-height:45px;background:#4dd17d;border:1px solid #48c073;color:#fff;border-radius:3px;}
+.login_btn{display: block;height:45px;line-height:45px;background:#4dd17d;border:1px solid #48c073;color:#fff;border-radius:3px;transition:0.2s;}
 .login_ok span,.login_btn img{display: none;}
 .login_ok img,.login_qq img{display:inline;vertical-align: middle;}
 .login_qq{border-color:#4798be;background:#4ea7d1;}
 .login_qq img{margin-right:30px;margin-left: -30px;}
 .login_quit{background:#df4848;border-color:#48c073;}
+.choose_net{position: absolute;padding:20px;width:340px;z-index:100;}
 .choose_net li{border-bottom: 1px solid #aeaeae;margin-bottom:5px;}
 .choose_net li a{display:block;height:40px;line-height:40px;color:#333;}
 .choose_net li a:hover{color:#06c;}
+.off{position: absolute;padding:5px;right:0px;top:0;}
 .help{width:60%;margin: 0 auto;padding-top:50px;min-width:900px;padding-bottom:150px;}
 .help .help_title{border-bottom:1px solid #bdbdbd;min-height:60px;line-height:60px;}
 .help .help_title a{padding:10px 20px 10px 5px;}
