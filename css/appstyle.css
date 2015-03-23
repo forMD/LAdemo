@@ -100,16 +100,18 @@ a.code .code_img{position: absolute;top:-233px;left:-90px;display:none;}
 .slogan a:hover,.login_btn:hover{opacity:0.8;transition:0.2s;}
 .login_box,.choose_net{width:300px;margin:0 auto;height:330px;position: absolute;top:50%;left:50%;margin:-170px 0 0 -190px;padding:20px 40px;background:none;}
 .login_box p img{width: 90%;}
-.login_box label input{vertical-align: middle;}
+.login_box label input{vertical-align: 1px;}
 .Int{height:40px;position: relative;}
 .Int .error_txt{display:block;width:100%;height:45px;line-height:45px;position: absolute;right:0;top:0;text-align: right;font-size: 13px;display: none;padding-right:10px;}
 .Int input{height:45px;line-height:45px;width: 100%;font-size: 14px;text-indent:10px;border:0;}
 .Int input:focus{box-shadow: 0 0 6px #06c;}
 .Int.has-error input{box-shadow: 0 0 10px #ea1b1b;}
 .Int.has-error .error_txt{display: block;color:#e41010;}
-.login_btn{display: block;height:45px;line-height:45px;background:#4dd17d;border:1px solid #48c073;color:#fff;border-radius:3px;transition:0.2s;}
+.login_btn{display: block;height:45px;line-height:45px;background:#4dd17d;border:1px solid #48c073;color:#fff;border-radius:3px;transition:0.2s;
+    position: relative;}
 .login_ok span,.login_btn img{display: none;}
 .login_ok img,.login_qq img{display:inline;vertical-align: middle;}
+.login_ok img{position: absolute;top:50%;left:50%;margin:-10px 0 0 -10px;}
 .login_qq{border-color:#4798be;background:#4ea7d1;}
 .login_qq img{margin-right:30px;margin-left: -30px;}
 .login_quit{background:#df4848;border-color:#48c073;}
