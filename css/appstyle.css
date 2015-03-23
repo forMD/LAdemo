@@ -94,8 +94,8 @@ a.code .code_img{position: absolute;top:-233px;left:-90px;display:none;}
 .slogan{width:30%;position: absolute;left:50%;margin-left:-15%;z-index:20;top:18%;}
 .slogan img{width:100%;}
 .slogan p{padding:0 40px;}
-.slogan a{display: inline-block;transition:0.2s;height:50px;line-height:50px;background:#e7e8e8;border:1px solid #0063bd;text-align: center;width:30%;border-radius:3px;font-size:16px;padding:0 10px;}
-.slogan a.login_oa{width:40%;border-color:#3e9b4d;background:#48b65a;color:#fff;}
+.slogan a,.pop p a{display: inline-block;transition:0.2s;height:50px;line-height:50px;background:#e7e8e8;border:1px solid #0063bd;text-align: center;width:30%;border-radius:3px;font-size:16px;padding:0 10px;}
+.slogan a.login_oa,.pop p a.floatright{width:40%;border-color:#3e9b4d;background:#48b65a;color:#fff;}
 .slogan a.regist_md{color:#06c;}
 .slogan a:hover,.login_btn:hover{opacity:0.8;transition:0.2s;}
 .login_box,.choose_net{width:300px;margin:0 auto;height:330px;position: absolute;top:50%;left:50%;margin:-170px 0 0 -190px;padding:20px 40px;background:none;}
@@ -139,6 +139,11 @@ a.code .code_img{position: absolute;top:-233px;left:-90px;display:none;}
 .message.message_waring{background: url("../img/mesbg_waring.png") no-repeat;}
 .loading{position:absolute;width:160px;padding:10px 0;top:50%;left:50%;margin:-50px 0 0 -80px;z-index:202;color:#fff;background:url("../img/mask40.png") repeat;border-radius:3px;}
 .loading img{width:35px;height:35px;margin-bottom:8px;}
+.pop{width:410px;height:320px;padding:10px 40px;position:absolute;background:#fff;top:50%;left:50%;margin:-220px 0 0 -245px;z-index:100;border-radius:4px;color:#666;font-size:14px;}
+.pop p{line-height:40px;}
+.pop p.font20{line-height:80px;border-bottom:1px solid #aaa;}
+.pop p a{height:38px;line-height:38px;}
+.pop p a.floatleft{border-color:#aaa;background:#fff;color: #888;}
 /*表单图标*/
 @font-face {
     font-family: 'oafont';
