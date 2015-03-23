@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04326b47-a016-4353-8d81-ef60ef29be21" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mask40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mesbg_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mesbg_error2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mesbg_waring.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/oafont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/oafont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/oafont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/oafont.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/appstyle.css" afterPath="$PROJECT_DIR$/css/appstyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LAdemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.88235295" vertical-offset="330" max-vertical-offset="1230">
-              <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+            <state vertical-scroll-proportion="-16.875" vertical-offset="180" max-vertical-offset="1230">
+              <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -150,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appstyle.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="appstyle.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/appstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1908" max-vertical-offset="2700">
-              <caret line="140" column="55" selection-start-line="140" selection-start-column="55" selection-end-line="140" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.19213974" vertical-offset="588" max-vertical-offset="2700">
+              <caret line="48" column="113" selection-start-line="48" selection-start-column="113" selection-end-line="48" selection-end-column="113" />
               <folding />
             </state>
           </provider>
@@ -180,8 +169,8 @@
         <option value="$PROJECT_DIR$/La.html" />
         <option value="$PROJECT_DIR$/help.html" />
         <option value="$PROJECT_DIR$/../la_pro/template/home.html" />
-        <option value="$PROJECT_DIR$/css/appstyle.css" />
         <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/css/appstyle.css" />
       </list>
     </option>
   </component>
@@ -694,18 +683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/appstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1908" max-vertical-offset="2700">
-          <caret line="140" column="55" selection-start-line="140" selection-start-column="55" selection-end-line="140" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88235295" vertical-offset="330" max-vertical-offset="1230">
-          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+        <state vertical-scroll-proportion="-16.875" vertical-offset="180" max-vertical-offset="1230">
+          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -718,6 +699,14 @@
             <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/appstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19213974" vertical-offset="588" max-vertical-offset="2700">
+          <caret line="48" column="113" selection-start-line="48" selection-start-column="113" selection-end-line="48" selection-end-column="113" />
+          <folding />
         </state>
       </provider>
     </entry>
