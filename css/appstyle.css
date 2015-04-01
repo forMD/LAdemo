@@ -28,7 +28,7 @@ body{overflow:hidden;min-width:1000px;}
 .two .img img{width:auto;}
 .three .img{right:1%;}
 .four .img{left:140px;bottom:-10px;filter:alpha(opacity=0);opacity: 0;}
-.mid .one .img{left:3%;height:70%;}
+.mid .one .img{left:3%;}
 .mid .two .img{height:70%;left:-5%;}
 .mid .three .img,.mid .four .img{height:80%;}
 
