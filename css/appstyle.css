@@ -28,7 +28,7 @@ body{overflow:hidden;min-width:1000px;}
 .two .img img{width:auto;}
 .three .img{right:1%;}
 .four .img{left:140px;bottom:-10px;filter:alpha(opacity=0);opacity: 0;}
-.mid .one .img{left:3%;height:70%;}
+.mid .one .img{left:3%;}
 .mid .two .img{height:70%;left:-5%;}
 .mid .three .img,.mid .four .img{height:80%;}
 
@@ -145,10 +145,10 @@ a.code .code_img{position: absolute;top:-233px;left:-90px;display:none;}
 .pop p a{height:38px;line-height:38px;}
 .pop p a.floatleft{border-color:#aaa;background:#fff;color: #888;width:20%;}
 .video_pop{width:530px;height:355px;position:fixed;left:50%;top:50%;margin:-176px 0 0 -265px;background:#000;z-index:200;}
-.doc_preview{position: fixed;top:0;left: 0;right:0;bottom:0;background:#111;z-index:200;}
+.doc_preview{position: fixed;top:0;left: 0;right:0;bottom:0;background:#111;z-index:200;display: none;}
 .doc_preview .header{height:60px;line-height:60px;background:#000;opacity:1;color:#fff;}
 .doc_preview .header a{color:#fff;}
-.doc_view{position: absolute;top:60px;width:1000px;bottom:0;left:50%;margin-left:-500px;background:#fff;overflow-y: auto;}
+.doc_view{position: absolute;top:60px;width:1000px;bottom:0;left:50%;margin-left:-500px;background:#fff;overflow:hidden;}
 .doc_btn_item{width:1000px;margin:0 auto;line-height:60px;}
 .doc_preview .header .off{top:-5px;right:20px;}
 /*表单图标*/
