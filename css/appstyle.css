@@ -46,7 +46,7 @@ body{overflow:hidden;min-width:1000px;}
 .download p span em{display:inline-block;position: absolute;width:150px;height:150px;top:-150px;left:0;display:none;}
 .download p span em img{width:150px;height:150px;}
 .download p span:hover em{display:block;transition:0.5s;-webkit-transition:0.5s;}
-.mask{position:absolute;width:100%;height:100%;left:0;top:0;background:url("../img/mask4.png") repeat;z-index:70;display:none;}
+.mask{position:absolute;width:100%;height:100%;left:0;top:0;background:url("../img/mask4.png") repeat;z-index:70;}
 .footer{position:fixed;width:100%;height:60px;padding-top:20px;left:0;bottom:-100px;background:#0e0d0d;filter:alpha(opacity=90);opacity:0.9;z-index:100;color:#fff;font-size:14px;}
 .footer span{display: inline-block;height:40px;line-height:40px;border-right:1px solid #424141;padding:0 40px;}
 .footer span img{vertical-align:middle;margin-right:15px;}
