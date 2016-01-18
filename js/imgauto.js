@@ -11,7 +11,7 @@ $(function(){
     var imgH = img.height();
     var imgB = imgW / imgH;//图片的宽高比例
     function resizeImg(){
-        console.log(imgW);
+        //console.log(imgW);
         imgW = img.width();
         imgH = img.height();
         imgB = imgW / imgH;//图片的宽高比例
