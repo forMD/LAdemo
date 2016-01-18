@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04326b47-a016-4353-8d81-ef60ef29be21" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/appstyle.css" afterPath="$PROJECT_DIR$/css/appstyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/imgauto.js" afterPath="$PROJECT_DIR$/js/imgauto.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/login_logo.png" afterPath="$PROJECT_DIR$/img/login_logo.png" />
     </list>
     <ignored path="LAdemo.iws" />
     <ignored path=".idea/workspace.xml" />
